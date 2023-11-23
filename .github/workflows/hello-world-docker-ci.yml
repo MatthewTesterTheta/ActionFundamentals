@@ -1,6 +1,11 @@
 name:  Hello World
 on: 
   workflow_dispatch:
+    inputs:
+      name:
+        type: text
+        required: true
+        description: "Who to say hello to?"
   push:
     branches: [main]
     paths: [ hello-world-docker-action/** ]
@@ -16,7 +21,7 @@ jobs:
         id: hello-action
         uses: ./hello-world-docker-action
         with:
-          who-to-greet: '@wulfland'
+          who-to-greet: '${{inputs.name}}'
 
       - name: Output time set in the container
         run: echo "The time was ${{ steps.hello-action.outputs.time }} when the action said hello"
