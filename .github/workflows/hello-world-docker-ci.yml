@@ -25,3 +25,5 @@ jobs:
 
       - name: Output time set in the container
         run: echo "The time was ${{ steps.hello-action.outputs.time }} when the action said hello"
+
+      - run: echo "## Action Summary from workflow" >> $GITHUB_STEP_SUMMARY
