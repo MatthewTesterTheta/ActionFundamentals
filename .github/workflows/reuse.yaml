@@ -5,7 +5,7 @@ on:
 
 jobs:
   call-workflow:
-    uses: ./.github/workflows/resuable.yaml
+    uses: ./.github/workflows/reusable.yaml
     with:
       who-to-greet: '${{github.actor}}'
 
