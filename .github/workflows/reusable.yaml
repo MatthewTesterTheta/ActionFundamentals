@@ -23,5 +23,7 @@ jobs:
 
       - name: Set time
         id: time
-        run: echo "time=$(date)" >> $GITHUB_OUTPUT    
+        run: | 
+          echo "time=$(date)" >> $GITHUB_OUTPUT    
+          echo "Reusable workflow called for ${{inputs.who-to-greet}}" >> $GITHUB_STEP_SUMMARY
 
