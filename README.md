@@ -2,10 +2,11 @@
 
 Repo for the `GitHub Actions Fundamentals` training.
 
-## Status
+## Workflow Status
 
-![Resuse Workflow](https://github.com/MatthewTesterTheta/ActionFundamentals/actions/workflows/reuse.yaml/badge.svg)
-![GitHub Actions Demo](https://github.com/MatthewTesterTheta/ActionFundamentals/actions/workflows/github-actions-demo.yml/badge.svg)
+- ![GitHub Actions Demo](https://github.com/MatthewTesterTheta/ActionFundamentals/actions/workflows/github-actions-demo.yml/badge.svg)
+- ![Hello World - Docker](https://github.com/MatthewTesterTheta/ActionFundamentals/actions/workflows/hello-world-docker-ci.yml/badge.svg)
+- ![Resusable Workflow](https://github.com/MatthewTesterTheta/ActionFundamentals/actions/workflows/reuse.yaml/badge.svg)
 
 ## 👉 Objectives
 
