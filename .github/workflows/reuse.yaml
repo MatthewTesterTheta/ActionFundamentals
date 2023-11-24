@@ -15,7 +15,7 @@ jobs:
     steps:
       - name: Write output from other workflow
         run: |
-          echo "Time was ${{jobs.call-workflow.outputs.current-time}}"
-          echo "Time was ${{jobs.call-workflow.outputs.current-time}}" >> $GITHUB_STEP_SUMMARY
+          echo "Time was ${{needs.call-workflow.outputs.current-time}}"
+          echo "Time was ${{needs.call-workflow.outputs.current-time}}" >> $GITHUB_STEP_SUMMARY
         
     
