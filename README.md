@@ -4,8 +4,8 @@ Repo for the `GitHub Actions Fundamentals` training.
 
 ## Status
 
-![Resuse Workflow](https://github.com/MatthewTesterTheta/ActionFundamentals/workflows/reuse.yaml/badge.svg)
-![GitHub Actions Demo](https://github.com/MatthewTesterTheta/ActionFundamentals/workflows/github-actions-demo.yml/badge.svg)
+![Resuse Workflow](https://github.com/MatthewTesterTheta/ActionFundamentals/actions/workflows/reuse.yaml/badge.svg)
+![GitHub Actions Demo](https://github.com/MatthewTesterTheta/ActionFundamentals/actions/workflows/github-actions-demo.yml/badge.svg)
 
 ## 👉 Objectives
 
